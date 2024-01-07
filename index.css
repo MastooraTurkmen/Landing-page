@@ -3,3 +3,30 @@
 *::after{
     box-sizing: border-box;
 }
+
+
+
+
+.Iphone-types{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2em;
+    background-color: #F6F6F6;
+    padding: 2em;
+}
+
+.iphon-img{
+    max-width: 100px;
+    height: 100px;
+    margin: 0;
+    object-fit: cover;
+    border-radius: .5em;
+}
+
+.col{
+    max-width: 200px;
+}
