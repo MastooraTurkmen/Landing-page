@@ -114,9 +114,11 @@ input{
     font-size: 1em;
 }
 
-input[type=text]{
-    color: white;   
+input::placeholder{
+    color: #09273a;   
+
 }
+
 
 
 textarea {
