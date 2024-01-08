@@ -97,6 +97,7 @@ form{
     display: flex;
     flex-direction: column;
     min-width: 500px;
+    margin: 0 auto;
 }
 
 label{
@@ -116,10 +117,14 @@ input{
 
 input::placeholder{
     color: #09273a;   
-
 }
 
-
+input,
+textarea,
+button,
+label{
+    max-width: 700px;
+}
 
 textarea {
     background-color: #6497b1;
