@@ -91,12 +91,15 @@ h1{
 }
 
 
-form{
-    padding: 3em;
+.form-section{
     background-color: #005b96;
+}
+
+.form{
+    padding: 3em;
     display: flex;
     flex-direction: column;
-    min-width: 500px;
+    justify-content: center;
     margin: 0 auto;
 }
 
