@@ -157,3 +157,13 @@ textarea {
     margin-top: 0;
     margin-bottom: 1em;
 }
+
+
+.footer{
+    height: 150px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
