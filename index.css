@@ -111,13 +111,19 @@ label{
     margin-bottom: .4em;
 }
 
-input{
+input,  
+button,
+textarea{
     padding: 1em 1.5em;
     border-radius: .5em;
     border: none;
     margin-bottom: 2em;
     background-color: #6497b1;
     font-size: 1em;
+}
+
+textarea {
+    resize: none;
 }
 
 input::placeholder{
