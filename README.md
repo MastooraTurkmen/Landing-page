@@ -6,4 +6,4 @@ Giving you the best Technology.
 
 ![Screenshot](./screenshot/image-1.png)
 
-![Alt text](image-2.png)
+![Screenshot](./screenshot/image-2.png)
