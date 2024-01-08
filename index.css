@@ -101,6 +101,8 @@ h1{
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+    min-width: 700px;
+
 }
 
 label{
@@ -122,13 +124,11 @@ input::placeholder{
     color: #09273a;   
 }
 
-input,
-textarea,
-button,
-label{
-    max-width: 700px;
-}
-
 textarea {
     background-color: #6497b1;
+}
+
+.form-center {
+    display: flex;
+    margin: 0 auto;
 }
