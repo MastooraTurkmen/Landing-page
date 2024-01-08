@@ -18,11 +18,17 @@ h1{
 .button{
     display: inline-block;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-top: 2em;
     color: white;
     background-color: #6497b1;
-    padding: .5em 1em;
+    padding: .8em 1.3em;
+    border-radius: .6em;
+}
+
+.button:hover{
+    background-color: #144566;
+    transform: scale(1.04);
 }
 
 .header{
@@ -95,6 +101,8 @@ form{
 
 label{
     color: white;
+    font-size: 1.3em;
+    margin-bottom: .4em;
 }
 
 input{
@@ -103,8 +111,13 @@ input{
     border: none;
     margin-bottom: 2em;
     background-color: #6497b1;
+    font-size: 1em;
+}
+
+input[type=text]{
     color: white;   
 }
+
 
 textarea {
     background-color: #6497b1;
