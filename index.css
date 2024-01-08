@@ -24,9 +24,11 @@ h1{
     background-color: #6497b1;
     padding: .8em 1.3em;
     border-radius: .6em;
+    cursor: pointer;
 }
 
-.button:hover{
+.button:hover, 
+button:hover{
     background-color: #144566;
     transform: scale(1.04);
 }
@@ -93,10 +95,11 @@ h1{
 
 .form-section{
     background-color: #005b96;
+    margin: 0 auto;
 }
 
 .form{
-    padding: 3em;
+    padding: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,6 +130,14 @@ textarea {
     height: 150px;
 }
 
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background-color:#6497b1;
+    cursor: pointer;
+}
+
 input::placeholder{
     color: #09273a;   
 }
@@ -138,4 +149,11 @@ textarea {
 .form-center {
     display: flex;
     margin: 0 auto;
+}
+
+.form-center h1{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
